@@ -15,7 +15,7 @@
 }
 
 .service-card {
-  background-color: #1a1a1a;
+  background-color: #181818;
   border-radius: 8px;
   padding: 2rem;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -30,7 +30,7 @@
   font-size: 2.5rem;
   margin-bottom: 1.5rem;
   display: inline-block;
-  background: linear-gradient(135deg, var(--accent-color), #ff8c42);
+  background: white;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -38,7 +38,7 @@
 .service-title {
   font-size: 1.5rem;
   margin-bottom: 1rem;
-  color: white;
+  color: black;
   font-weight: 600;
 }
 

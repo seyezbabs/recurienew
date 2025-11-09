@@ -13,8 +13,8 @@ const Hero = () => {
             CLE10 is a leading product development firm in North America that merges Strategy, Human Factors, Design, and Engineering to bring innovative solutions to life.
           </p>
           <div className="hero-buttons">
-            <a href="#projects" className="btn btn-primary">Explore Projects →</a>
-            <a href="#about" className="btn btn-outline">Discover CLE10</a>
+            <a href="#projects" className="btn btn-primary">Tell us about your project</a>
+            
           </div>
         </div>
       </div>

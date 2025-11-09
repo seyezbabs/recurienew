@@ -18,14 +18,14 @@
   font-size: 3.5rem;
   font-weight: 700;
   margin-bottom: 0.5rem;
-  background: linear-gradient(45deg, var(--accent-color), #ff9966);
+  background: linear-gradient(45deg, var(--text-color), #FFFFFF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .stat-label {
   font-size: 1rem;
-  color: #aaa;
+  color: #FFFFFF;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
