@@ -7,6 +7,9 @@ import Statistics from "./components/Statistics";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import MachineLearning from "./components/MachineLearning";
+import { BrowserRouter, Routes, Route} from "react-router-dom";
+
 
 function App() {
   return (

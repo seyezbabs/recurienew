@@ -7,7 +7,7 @@ const About = () => {
       <div className="container">
         <div className="about-grid">
           <div className="about-content">
-            <span className="tag">About CLE10</span>
+            <span className="tag">About Recurie</span>
             <h2 className="section-title">We're a team of innovators and problem solvers</h2>
             <p className="about-description">
               Founded in 2008, CLE10 has grown from a small design studio to a full-service product development firm. 
@@ -22,7 +22,7 @@ const About = () => {
             <a href="#contact" className="btn btn-primary">Work with us →</a>
           </div>
           <div className="about-image">
-            <div className="about-image-container"></div>
+          
           </div>
         </div>
       </div>

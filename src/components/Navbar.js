@@ -22,7 +22,9 @@ const Navbar = () => {
           <button className="close-menu-btn" onClick={toggleMenu}>
              <img src={require('../assets/close-svgrepo-com.svg').default} alt="closing" className="button-general" />
           </button>
-          
+           {/*<div className={'nav-item-mobile'}>
+             <a href="/MachineLearning" className="newlink">Machine Learning</a>
+           </div> */}
           <div className="nav-item">
             <a href="#projects" className="nav-link">Projects</a>
           </div>
@@ -40,7 +42,7 @@ const Navbar = () => {
           </div>
           
           <div className="nav-cta">
-            <a href="#contact" className="btn btn-primary">Contact our Team </a>
+            <a href="#contact" className="btn btn-primary">Contact Us</a>
           </div>
         </div>
       </div>

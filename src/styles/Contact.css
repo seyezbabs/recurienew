@@ -5,7 +5,7 @@
 
 .contact-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 45% 55%;
   gap: 3rem;
 }
 
@@ -59,6 +59,53 @@
   min-height: 150px;
   resize: vertical;
 }
+
+/* layout for form rows (name + email) */
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* visually hidden helper for labels */
+.sr-only {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
+
+.form-error {
+  color: #ffb4b4;
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.form-success {
+  background: rgba(40, 167, 69, 0.08);
+  color: #c8ffd1;
+  padding: 0.6rem 0.9rem;
+  border-radius: 6px;
+  display: inline-block;
+}
+
+.form-actions { margin-top: 0.5rem; }
+
+/* focus states */
+.contact-form input:focus,
+.contact-form textarea:focus,
+.contact-form button:focus {
+  outline: 3px solid rgba(100, 120, 255, 0.12);
+  outline-offset: 3px;
+}
+
+.btn[disabled],
+.btn[disabled]:hover { opacity: 0.6; cursor: not-allowed; }
 
 @media screen and (max-width: 992px) {
   .contact-grid {

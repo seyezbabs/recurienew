@@ -1,0 +1,13 @@
+.maindiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+.expertise-main {
+  height: 400px;
+  display: flex;
+
+}

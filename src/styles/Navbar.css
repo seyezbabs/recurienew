@@ -55,6 +55,11 @@
   transition: color 0.3s ease;
 }
 
+/* medium-sized link used in the sidebar */
+.nav-link--medium {
+  font-size: 1.06rem; /* slightly larger than base for medium appearance */
+}
+
 .nav-link:hover {
   color: var(--accent-color);
 }
@@ -100,14 +105,15 @@
     width: 100%;
     max-width: 100vw;
     height: 100vh;
+
     position: fixed;
     top: 0;
     right: 0;
     transform: translateX(100%);
     padding: 5rem 2rem 2rem;
     transition: transform 0.4s cubic-bezier(0.2, 0.9, 0.2, 1);
-    background-color: rgba(0, 0, 0, 0.95);
-    box-shadow: -6px 0 20px rgba(0, 0, 0, 0.25);
+    background-color: black;
+
     gap: 1.5rem;
     z-index: 1001;
     align-items: center;
@@ -131,6 +137,7 @@
   }
 
   .nav-menu.active {
+    display: flex;
     transform: translateX(0);
   }
 
@@ -139,7 +146,6 @@
     margin: 0.5rem 0;
     width: 100%;
     align-items: center;
-    
   }
 
   .nav-cta {
@@ -176,6 +182,16 @@
     height: 50px;
     width: 50px;
   }
+
+  
+  .newlink {
+    font-size: medium;
+  }
+}
+
+.nav-item-mobile {
+  display: flex;
+  
 }
 
 /* Helper class toggled by JS when the page is scrolled to give a stronger navbar */
