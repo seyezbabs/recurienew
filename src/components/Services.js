@@ -32,18 +32,16 @@ const Services = () => {
   return (
     <section className="services" id="expertise">
       <div className="container">
-        <div className="section-header centered-content">
-          <span className="tag">Our Expertise</span>
-          <h2 className="section-title">How we bring ideas to life</h2>
-        </div>
+       
         
         <div className="services-grid">
           {services.map((service) => (
             <div className="service-card" key={service.id}>
             
               <h3 className="service-title">{service.title}</h3>
+               <a href={`#${service.title.toLowerCase()}`} className="service-link">Learn more →</a>
               <p className="service-description">{service.description}</p>
-              <a href={`#${service.title.toLowerCase()}`} className="service-link">Learn more →</a>
+              
             </div>
           ))}
         </div>
