@@ -68,7 +68,12 @@ const Navbar = () => {
           </div>*/}
 
           <div className="nav-links">
-            <Link style={{fontSize: 30, color: "white" }} to="/Machinelearn">Machine Learning</Link>
+            <Link
+              style={{ fontSize: 30, color: "white" }}
+              to="/machine-learning"
+            >
+              Machine Learning
+            </Link>
           </div>
         </div>
       </div>

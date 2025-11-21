@@ -1,17 +1,18 @@
 import React from "react";
-import "../Expertise.css";
+import "../styles/MachineLearning.css";
 import Navbar from "../components/Navbar";
-import Footer from "../components/Footer"
-
+import Footer from "../components/Footer";
 
 const Machinelearn = () => {
   return (
-    <div className="maincontainer">
+    <>
       <Navbar />
+      <div className="machine-learn-main-content">
+        <p>Main Content Of Page</p>
+      </div>
 
-      <text>man</text>
       <Footer />
-    </div>
+    </>
   );
 };
 
