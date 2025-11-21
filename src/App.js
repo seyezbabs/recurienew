@@ -7,23 +7,33 @@ import Statistics from "./components/Statistics";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import MachineLearning from "./components/MachineLearning";
-import { BrowserRouter, Routes, Route} from "react-router-dom";
+import Machinelearn from "./components/Machinelearn";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+function Home() {
+  return (
+    <>
+    <Navbar />
+      <Hero />
+      <Services />
+      <Statistics />
+      <About />
+      <Contact />
+      <Footer />
+    </>
+  );
+}
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <main>
-        <Hero />
-        <Services />
-        <Statistics />
-        <About />
-        <Contact />
-      </main>
-      <Footer />
-    </div>
+    <BrowserRouter>
+      
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/machine-learning" element={<Machinelearn />} />
+      </Routes>
+      
+    </BrowserRouter>
   );
 }
 
